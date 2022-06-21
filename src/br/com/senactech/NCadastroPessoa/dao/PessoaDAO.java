@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author 182110041
+ * @author Mauro BH Jr
  */
 public class PessoaDAO {
     
