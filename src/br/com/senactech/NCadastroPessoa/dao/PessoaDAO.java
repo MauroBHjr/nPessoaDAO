@@ -53,7 +53,7 @@ public class PessoaDAO {
             
             try {
                 String sql;
-                sql = "select from pessoa";
+                sql = "select * from pessoa";
                 ResultSet rs = stat.executeQuery(sql);
                 ArrayList<Pessoa> pessoas = new ArrayList<>();
                 while (rs.next()){
