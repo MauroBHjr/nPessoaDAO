@@ -37,7 +37,7 @@ public class PessoaServicos {
     
     public void deletarPessoaBD(int id) throws SQLException{
         PessoaDAO pDAO = DAOFactory.getPessoaDAO();
-        pDAO.deletarPessiar(id);
+        pDAO.deletarPessoa(id);
     }
     
     public void atualizarPessoaBD(Pessoa pVO) throws SQLException{

@@ -140,7 +140,7 @@ public class PessoaDAO {
             return p;
         }
         
-        public void deletarPessiar(int id) throws SQLException{
+        public void deletarPessoa(int id) throws SQLException{
             //Buscar conexão do Banco de Dados
             Connection con = Conexao.getConexao();
             /*cria espaço de trabalho sql 
